@@ -12,6 +12,7 @@ namespace Lab4.ApiContollers
 {
     [Produces("application/json")]
     [Route("api/Stores")]
+    //[ApiVersion("1.0"), ApiVersion("2.0")] swagger baca grešku "invalid string length", vjerojatno zbog cirkularnih referenci
     [Authorize]
     public class StoresController : Controller
     {
@@ -22,6 +23,7 @@ namespace Lab4.ApiContollers
             _context = context;
         }
 
+        [HttpGet]
         [AllowAnonymous]
         public IEnumerable<Store> GetStores()
         {

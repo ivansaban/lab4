@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab4", "IvanLab4\Lab4.cspro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DALlab4", "DALlab4\DALlab4.csproj", "{CE1229EA-A989-4E91-8E98-A0866685F9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth", "OAuth\OAuth.csproj", "{C5B0454D-FE3A-4FA5-B17D-D7FC50456DC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OAuth", "OAuth\OAuth.csproj", "{C5B0454D-FE3A-4FA5-B17D-D7FC50456DC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "UnitTest\Test.csproj", "{81B4C06B-D405-4432-8A8C-2CC74B7E2DDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C5B0454D-FE3A-4FA5-B17D-D7FC50456DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5B0454D-FE3A-4FA5-B17D-D7FC50456DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5B0454D-FE3A-4FA5-B17D-D7FC50456DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81B4C06B-D405-4432-8A8C-2CC74B7E2DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81B4C06B-D405-4432-8A8C-2CC74B7E2DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81B4C06B-D405-4432-8A8C-2CC74B7E2DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81B4C06B-D405-4432-8A8C-2CC74B7E2DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

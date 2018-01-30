@@ -1,0 +1,108 @@
+﻿@model DALlab4.Entities.Employee
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NationalIdnumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NationalIdnumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LoginId)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LoginId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OrganizationLevel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OrganizationLevel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.JobTitle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.JobTitle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MaritalStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaritalStatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.HireDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.HireDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalariedFlag)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalariedFlag)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VacationHours)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VacationHours)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SickLeaveHours)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SickLeaveHours)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentFlag)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CurrentFlag)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rowguid)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Rowguid)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BusinessEntity)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BusinessEntity.FirstName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.BusinessEntityId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

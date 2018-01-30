@@ -11,6 +11,7 @@ namespace Lab4.ApiContollers
 {
     [Produces("application/json")]
     [Route("api/SalesPersons")]
+    //[ApiVersion("1.0"), ApiVersion("2.0")] swagger baca grešku "invalid string length", vjerojatno zbog cirkularnih referenci
     public class SalesPersonsController : Controller
     {
         private readonly AdventureWorks2014Context _context;
